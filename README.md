@@ -52,5 +52,14 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 <img width="733" alt="Screen Shot 2021-12-02 at 9 54 28 PM" src="https://user-images.githubusercontent.com/88408350/144552741-ba9bc8ee-387f-4135-93dc-72c06391dc6a.png">
 
 **- Easy Ensemble AdaBoost Classifier:**
+  - The balanced accuracy score is about 93%
+  - The high risk precision score is about 7% with 91% sensitivity
+  - The low risk precision score is 100% with 94% sensitivity
+
+<img width="930" alt="Screen Shot 2021-12-09 at 9 38 06 PM" src="https://user-images.githubusercontent.com/88408350/145522948-f75ea59d-b898-4ae5-a15f-dae505971d8f.png">
+<img width="789" alt="Screen Shot 2021-12-09 at 9 38 12 PM" src="https://user-images.githubusercontent.com/88408350/145522957-dffaca87-4d99-4f30-ba8a-0e53f8850133.png">
+
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning
+
+After reviewing all the results from the machine learning models, we see a trend within the first four models of having accuracy scores that are not too convicning (as low as  53%) and also fairly low precision and recall scores - making it difficult to use these results with confidence. The Ensemble Classifier definitely had the best results in accuracy, precision, and recall. So, I would recommend using that model over the others because there is a good mix between oversampling and undersampling the data, which is why the Ensemble Classifier gave us the best results. 
